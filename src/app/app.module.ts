@@ -37,6 +37,7 @@ import { ApplyCarryForwardRequestComponent } from './views/carry_forward/apply-c
 import { ViewCarryForwardRequestComponent } from './views/carry_forward/view-carry-forward-request/view-carry-forward-request.component';
 import { RejectCarryForwardRequestComponent } from './views/carry_forward/reject-carry-forward-request/reject-carry-forward-request.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
