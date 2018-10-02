@@ -36,6 +36,7 @@ import { ViewCancelLeaveRequestComponent } from './views/cancel_leave_request/vi
 import { ApplyCarryForwardRequestComponent } from './views/carry_forward/apply-carry-forward-request/apply-carry-forward-request.component';
 import { ViewCarryForwardRequestComponent } from './views/carry_forward/view-carry-forward-request/view-carry-forward-request.component';
 import { RejectCarryForwardRequestComponent } from './views/carry_forward/reject-carry-forward-request/reject-carry-forward-request.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +74,8 @@ import { RejectCarryForwardRequestComponent } from './views/carry_forward/reject
     ViewCancelLeaveRequestComponent,
     ApplyCarryForwardRequestComponent,
     ViewCarryForwardRequestComponent,
-    RejectCarryForwardRequestComponent
+    RejectCarryForwardRequestComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule
